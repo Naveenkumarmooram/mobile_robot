@@ -1,0 +1,28 @@
+running develop
+Removing /home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages/simulations.egg-link (link to .)
+running egg_info
+writing ../../build/simulations/simulations.egg-info/PKG-INFO
+writing dependency_links to ../../build/simulations/simulations.egg-info/dependency_links.txt
+writing entry points to ../../build/simulations/simulations.egg-info/entry_points.txt
+writing requirements to ../../build/simulations/simulations.egg-info/requires.txt
+writing top-level names to ../../build/simulations/simulations.egg-info/top_level.txt
+reading manifest file '../../build/simulations/simulations.egg-info/SOURCES.txt'
+writing manifest file '../../build/simulations/simulations.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages/simulations
+copying /home/naveenkumar/mobile_robot/build/simulations/build/lib/simulations/__init__.py -> /home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages/simulations
+byte-compiling /home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages/simulations/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/simulations -> /home/naveenkumar/mobile_robot/install/simulations/share/ament_index/resource_index/packages
+copying package.xml -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations
+copying launch/display.launch.py -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations/launch
+copying launch/warehouse.launch.py -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations/launch
+copying launch/house.launch.py -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations/launch
+copying launch/gazebo.launch.py -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations/launch
+running install_egg_info
+Copying ../../build/simulations/simulations.egg-info to /home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages/simulations-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/naveenkumar/mobile_robot/build/simulations/install.log'

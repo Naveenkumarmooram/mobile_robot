@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing simulations.egg-info/PKG-INFO
+writing dependency_links to simulations.egg-info/dependency_links.txt
+writing entry points to simulations.egg-info/entry_points.txt
+writing requirements to simulations.egg-info/requires.txt
+writing top-level names to simulations.egg-info/top_level.txt
+reading manifest file 'simulations.egg-info/SOURCES.txt'
+writing manifest file 'simulations.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages/simulations.egg-link (link to .)
+
+Installed /home/naveenkumar/mobile_robot/build/simulations
+running symlink_data
+symbolically linking /home/naveenkumar/mobile_robot/build/simulations/resource/simulations -> /home/naveenkumar/mobile_robot/install/simulations/share/ament_index/resource_index/packages
+symbolically linking /home/naveenkumar/mobile_robot/build/simulations/package.xml -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations
+symbolically linking /home/naveenkumar/mobile_robot/build/simulations/launch/display.launch.py -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations/launch
+symbolically linking /home/naveenkumar/mobile_robot/build/simulations/launch/warehouse.launch.py -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations/launch
+symbolically linking /home/naveenkumar/mobile_robot/build/simulations/launch/house.launch.py -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations/launch
+symbolically linking /home/naveenkumar/mobile_robot/build/simulations/launch/gazebo.launch.py -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations/launch

@@ -1,0 +1,360 @@
+[0.000000] (-) TimerEvent: {}
+[0.002274] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict()}
+[0.002467] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.002530] (worlds) JobQueued: {'identifier': 'worlds', 'dependencies': OrderedDict()}
+[0.002575] (simulations) JobQueued: {'identifier': 'simulations', 'dependencies': OrderedDict([('robot_description', '/home/naveenkumar/mobile_robot/install/robot_description'), ('worlds', '/home/naveenkumar/mobile_robot/install/worlds')])}
+[0.004184] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.072678] (worlds) JobStarted: {'identifier': 'worlds'}
+[0.104777] (-) TimerEvent: {}
+[0.153453] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[0.205192] (-) TimerEvent: {}
+[0.255473] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.261638] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[0.270885] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/naveenkumar/mobile_robot/build/robot_description', '--', '-j8', '-l8'], 'cwd': '/home/naveenkumar/mobile_robot/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'naveenkumar'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/naveenkumar/thesis/install/turtlebot3_msgs/lib:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware/lib:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces/lib:/home/naveenkumar/thesis/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/naveenkumar'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1802'), ('SYSTEMD_EXEC_PID', '1980'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7792'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/naveenkumar/AMR/install:/home/naveenkumar/thesis/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naveenkumar'), ('JOURNAL_STREAM', '8:16277'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'naveenkumar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description/share:/usr/share/gazebo-11/models::/home/naveenkumar/mobile_robot/src/worlds/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/naveenkumar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/naveenkumar-HP-Pavilion-Laptop-15-cs1xxx:@/tmp/.ICE-unix/1957,unix/naveenkumar-HP-Pavilion-Laptop-15-cs1xxx:/tmp/.ICE-unix/1957'), ('INVOCATION_ID', '512bce6f879c4f55991910679b4cd0e6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MFAXV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/naveenkumar/AMR/install/telenex_ts100:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_simulations:/home/naveenkumar/thesis/install/turtlebot3_bringup:/home/naveenkumar/thesis/install/turtlebot3_node:/home/naveenkumar/thesis/install/turtlebot3_navigation2:/home/naveenkumar/thesis/install/turtlebot3_fake_node:/home/naveenkumar/thesis/install/turtlebot3_example:/home/naveenkumar/thesis/install/turtlebot3_msgs:/home/naveenkumar/thesis/install/turtlebot3_manipulation:/home/naveenkumar/thesis/install/turtlebot3_manipulation_teleop:/home/naveenkumar/thesis/install/turtlebot3_manipulation_navigation2:/home/naveenkumar/thesis/install/turtlebot3_manipulation_moveit_config:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware:/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description:/home/naveenkumar/thesis/install/turtlebot3_manipulation_cartographer:/home/naveenkumar/thesis/install/turtlebot3_gazebo:/home/naveenkumar/thesis/install/turtlebot3_description:/home/naveenkumar/thesis/install/turtlebot3_cartographer:/home/naveenkumar/thesis/install/dynamixel_sdk_examples:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces:/home/naveenkumar/thesis/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:604b3a30-253b-4455-aad3-5ee9cdfdf7c6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/naveenkumar/mobile_robot/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/naveenkumar/AMR/install/telenex_robot_description/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/naveen_pkg/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/my_package/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_example/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/naveenkumar/AMR/install/telenex_ts100:/home/naveenkumar/thesis/install/turtlebot3:/home/naveenkumar/thesis/install/turtlebot3_simulations:/home/naveenkumar/thesis/install/turtlebot3_bringup:/home/naveenkumar/thesis/install/turtlebot3_node:/home/naveenkumar/thesis/install/turtlebot3_navigation2:/home/naveenkumar/thesis/install/turtlebot3_fake_node:/home/naveenkumar/thesis/install/turtlebot3_msgs:/home/naveenkumar/thesis/install/turtlebot3_manipulation:/home/naveenkumar/thesis/install/turtlebot3_manipulation_teleop:/home/naveenkumar/thesis/install/turtlebot3_manipulation_navigation2:/home/naveenkumar/thesis/install/turtlebot3_manipulation_moveit_config:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware:/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description:/home/naveenkumar/thesis/install/turtlebot3_manipulation_cartographer:/home/naveenkumar/thesis/install/turtlebot3_gazebo:/home/naveenkumar/thesis/install/turtlebot3_description:/home/naveenkumar/thesis/install/turtlebot3_cartographer:/home/naveenkumar/thesis/install/dynamixel_sdk_examples:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces:/home/naveenkumar/thesis/install/dynamixel_sdk:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.309436] (-) TimerEvent: {}
+[0.412386] (-) TimerEvent: {}
+[0.518953] (-) TimerEvent: {}
+[0.619676] (-) TimerEvent: {}
+[0.721898] (-) TimerEvent: {}
+[0.825684] (-) TimerEvent: {}
+[0.930941] (-) TimerEvent: {}
+[1.032170] (-) TimerEvent: {}
+[1.133602] (-) TimerEvent: {}
+[1.234995] (-) TimerEvent: {}
+[1.338284] (-) TimerEvent: {}
+[1.441752] (-) TimerEvent: {}
+[1.543120] (-) TimerEvent: {}
+[1.644021] (-) TimerEvent: {}
+[1.746239] (-) TimerEvent: {}
+[1.848063] (-) TimerEvent: {}
+[1.949666] (-) TimerEvent: {}
+[2.053260] (-) TimerEvent: {}
+[2.154332] (-) TimerEvent: {}
+[2.257272] (-) TimerEvent: {}
+[2.358377] (-) TimerEvent: {}
+[2.459246] (-) TimerEvent: {}
+[2.562381] (-) TimerEvent: {}
+[2.663832] (-) TimerEvent: {}
+[2.765046] (-) TimerEvent: {}
+[2.867328] (-) TimerEvent: {}
+[2.968526] (-) TimerEvent: {}
+[3.069746] (-) TimerEvent: {}
+[3.171529] (-) TimerEvent: {}
+[3.272162] (-) TimerEvent: {}
+[3.374474] (-) TimerEvent: {}
+[3.477291] (-) TimerEvent: {}
+[3.579281] (-) TimerEvent: {}
+[3.680665] (-) TimerEvent: {}
+[3.781545] (-) TimerEvent: {}
+[3.882660] (-) TimerEvent: {}
+[3.984685] (-) TimerEvent: {}
+[4.085720] (-) TimerEvent: {}
+[4.187473] (-) TimerEvent: {}
+[4.291649] (-) TimerEvent: {}
+[4.392564] (-) TimerEvent: {}
+[4.493310] (-) TimerEvent: {}
+[4.597103] (-) TimerEvent: {}
+[4.698363] (-) TimerEvent: {}
+[4.801095] (-) TimerEvent: {}
+[4.902621] (-) TimerEvent: {}
+[5.003085] (-) TimerEvent: {}
+[5.105115] (-) TimerEvent: {}
+[5.212140] (-) TimerEvent: {}
+[5.315341] (-) TimerEvent: {}
+[5.422692] (-) TimerEvent: {}
+[5.523994] (-) TimerEvent: {}
+[5.626253] (-) TimerEvent: {}
+[5.728220] (-) TimerEvent: {}
+[5.829335] (-) TimerEvent: {}
+[5.930572] (-) TimerEvent: {}
+[6.033115] (-) TimerEvent: {}
+[6.134409] (-) TimerEvent: {}
+[6.236769] (-) TimerEvent: {}
+[6.297942] (robot_description) CommandEnded: {'returncode': 0}
+[6.346797] (-) TimerEvent: {}
+[6.452544] (-) TimerEvent: {}
+[6.496520] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[6.554171] (-) TimerEvent: {}
+[6.607069] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/naveenkumar/mobile_robot/build/robot_description'], 'cwd': '/home/naveenkumar/mobile_robot/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'naveenkumar'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/naveenkumar/thesis/install/turtlebot3_msgs/lib:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware/lib:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces/lib:/home/naveenkumar/thesis/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/naveenkumar'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1802'), ('SYSTEMD_EXEC_PID', '1980'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7792'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/naveenkumar/AMR/install:/home/naveenkumar/thesis/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naveenkumar'), ('JOURNAL_STREAM', '8:16277'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'naveenkumar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description/share:/usr/share/gazebo-11/models::/home/naveenkumar/mobile_robot/src/worlds/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/naveenkumar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/naveenkumar-HP-Pavilion-Laptop-15-cs1xxx:@/tmp/.ICE-unix/1957,unix/naveenkumar-HP-Pavilion-Laptop-15-cs1xxx:/tmp/.ICE-unix/1957'), ('INVOCATION_ID', '512bce6f879c4f55991910679b4cd0e6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MFAXV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/naveenkumar/AMR/install/telenex_ts100:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_simulations:/home/naveenkumar/thesis/install/turtlebot3_bringup:/home/naveenkumar/thesis/install/turtlebot3_node:/home/naveenkumar/thesis/install/turtlebot3_navigation2:/home/naveenkumar/thesis/install/turtlebot3_fake_node:/home/naveenkumar/thesis/install/turtlebot3_example:/home/naveenkumar/thesis/install/turtlebot3_msgs:/home/naveenkumar/thesis/install/turtlebot3_manipulation:/home/naveenkumar/thesis/install/turtlebot3_manipulation_teleop:/home/naveenkumar/thesis/install/turtlebot3_manipulation_navigation2:/home/naveenkumar/thesis/install/turtlebot3_manipulation_moveit_config:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware:/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description:/home/naveenkumar/thesis/install/turtlebot3_manipulation_cartographer:/home/naveenkumar/thesis/install/turtlebot3_gazebo:/home/naveenkumar/thesis/install/turtlebot3_description:/home/naveenkumar/thesis/install/turtlebot3_cartographer:/home/naveenkumar/thesis/install/dynamixel_sdk_examples:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces:/home/naveenkumar/thesis/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:604b3a30-253b-4455-aad3-5ee9cdfdf7c6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/naveenkumar/mobile_robot/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/naveenkumar/AMR/install/telenex_robot_description/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/naveen_pkg/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/my_package/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_example/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/naveenkumar/AMR/install/telenex_ts100:/home/naveenkumar/thesis/install/turtlebot3:/home/naveenkumar/thesis/install/turtlebot3_simulations:/home/naveenkumar/thesis/install/turtlebot3_bringup:/home/naveenkumar/thesis/install/turtlebot3_node:/home/naveenkumar/thesis/install/turtlebot3_navigation2:/home/naveenkumar/thesis/install/turtlebot3_fake_node:/home/naveenkumar/thesis/install/turtlebot3_msgs:/home/naveenkumar/thesis/install/turtlebot3_manipulation:/home/naveenkumar/thesis/install/turtlebot3_manipulation_teleop:/home/naveenkumar/thesis/install/turtlebot3_manipulation_navigation2:/home/naveenkumar/thesis/install/turtlebot3_manipulation_moveit_config:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware:/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description:/home/naveenkumar/thesis/install/turtlebot3_manipulation_cartographer:/home/naveenkumar/thesis/install/turtlebot3_gazebo:/home/naveenkumar/thesis/install/turtlebot3_description:/home/naveenkumar/thesis/install/turtlebot3_cartographer:/home/naveenkumar/thesis/install/dynamixel_sdk_examples:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces:/home/naveenkumar/thesis/install/dynamixel_sdk:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[6.654573] (-) TimerEvent: {}
+[6.688566] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.694795] (robot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.702309] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/urdf/camera.xacro\n'}
+[6.709419] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/urdf/gazebo_control.xacro\n'}
+[6.714563] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/urdf/inertial_macros.xacro\n'}
+[6.715395] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/urdf/lidar.xacro\n'}
+[6.715897] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/urdf/robot_base.urdf\n'}
+[6.716380] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[6.716621] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[6.716833] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[6.719582] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[6.731797] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/environment/path.sh\n'}
+[6.733216] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[6.733837] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/local_setup.bash\n'}
+[6.735317] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/local_setup.sh\n'}
+[6.738515] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[6.745489] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[6.746431] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.dsv\n'}
+[6.756249] (-) TimerEvent: {}
+[6.847283] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[6.848875] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[6.857304] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[6.859088] (-) TimerEvent: {}
+[6.862346] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.xml\n'}
+[6.894344] (robot_description) CommandEnded: {'returncode': 0}
+[6.963101] (-) TimerEvent: {}
+[7.064732] (-) TimerEvent: {}
+[7.167125] (-) TimerEvent: {}
+[7.268446] (-) TimerEvent: {}
+[7.373185] (-) TimerEvent: {}
+[7.397384] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[7.474218] (-) TimerEvent: {}
+[7.576736] (-) TimerEvent: {}
+[7.678015] (-) TimerEvent: {}
+[7.783535] (-) TimerEvent: {}
+[7.885686] (-) TimerEvent: {}
+[7.987465] (-) TimerEvent: {}
+[8.088977] (-) TimerEvent: {}
+[8.191613] (-) TimerEvent: {}
+[8.293763] (-) TimerEvent: {}
+[8.398264] (-) TimerEvent: {}
+[8.499283] (-) TimerEvent: {}
+[8.600339] (-) TimerEvent: {}
+[8.706184] (-) TimerEvent: {}
+[8.807230] (-) TimerEvent: {}
+[8.914633] (-) TimerEvent: {}
+[9.015832] (-) TimerEvent: {}
+[9.118011] (-) TimerEvent: {}
+[9.220013] (-) TimerEvent: {}
+[9.321045] (-) TimerEvent: {}
+[9.424293] (-) TimerEvent: {}
+[9.525248] (-) TimerEvent: {}
+[9.628341] (-) TimerEvent: {}
+[9.730657] (-) TimerEvent: {}
+[9.836436] (-) TimerEvent: {}
+[9.938532] (-) TimerEvent: {}
+[10.045231] (-) TimerEvent: {}
+[10.148993] (-) TimerEvent: {}
+[10.255101] (-) TimerEvent: {}
+[10.358663] (-) TimerEvent: {}
+[10.460209] (-) TimerEvent: {}
+[10.564509] (-) TimerEvent: {}
+[10.669033] (-) TimerEvent: {}
+[10.775431] (-) TimerEvent: {}
+[10.882167] (-) TimerEvent: {}
+[10.988695] (-) TimerEvent: {}
+[11.092642] (-) TimerEvent: {}
+[11.198161] (-) TimerEvent: {}
+[11.302076] (-) TimerEvent: {}
+[11.404081] (-) TimerEvent: {}
+[11.509925] (-) TimerEvent: {}
+[11.611910] (-) TimerEvent: {}
+[11.617350] (robot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_control', 'build', '--build-base', '/home/naveenkumar/mobile_robot/build/robot_control/build', 'install', '--record', '/home/naveenkumar/mobile_robot/build/robot_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/naveenkumar/mobile_robot/src/robot_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'naveenkumar', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/naveenkumar/thesis/install/turtlebot3_msgs/lib:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware/lib:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces/lib:/home/naveenkumar/thesis/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/naveenkumar', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1802', 'SYSTEMD_EXEC_PID': '1980', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7792', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/naveenkumar/AMR/install:/home/naveenkumar/thesis/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'naveenkumar', 'JOURNAL_STREAM': '8:16277', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'naveenkumar', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description/share:/usr/share/gazebo-11/models::/home/naveenkumar/mobile_robot/src/worlds/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/naveenkumar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/naveenkumar-HP-Pavilion-Laptop-15-cs1xxx:@/tmp/.ICE-unix/1957,unix/naveenkumar-HP-Pavilion-Laptop-15-cs1xxx:/tmp/.ICE-unix/1957', 'INVOCATION_ID': '512bce6f879c4f55991910679b4cd0e6', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MFAXV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/naveenkumar/AMR/install/telenex_ts100:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_simulations:/home/naveenkumar/thesis/install/turtlebot3_bringup:/home/naveenkumar/thesis/install/turtlebot3_node:/home/naveenkumar/thesis/install/turtlebot3_navigation2:/home/naveenkumar/thesis/install/turtlebot3_fake_node:/home/naveenkumar/thesis/install/turtlebot3_example:/home/naveenkumar/thesis/install/turtlebot3_msgs:/home/naveenkumar/thesis/install/turtlebot3_manipulation:/home/naveenkumar/thesis/install/turtlebot3_manipulation_teleop:/home/naveenkumar/thesis/install/turtlebot3_manipulation_navigation2:/home/naveenkumar/thesis/install/turtlebot3_manipulation_moveit_config:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware:/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description:/home/naveenkumar/thesis/install/turtlebot3_manipulation_cartographer:/home/naveenkumar/thesis/install/turtlebot3_gazebo:/home/naveenkumar/thesis/install/turtlebot3_description:/home/naveenkumar/thesis/install/turtlebot3_cartographer:/home/naveenkumar/thesis/install/dynamixel_sdk_examples:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces:/home/naveenkumar/thesis/install/dynamixel_sdk:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:604b3a30-253b-4455-aad3-5ee9cdfdf7c6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/naveenkumar/mobile_robot/build/robot_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/naveenkumar/mobile_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/telenex_robot_description/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/naveen_pkg/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/my_package/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_example/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/naveenkumar/AMR/install/telenex_ts100:/home/naveenkumar/thesis/install/turtlebot3:/home/naveenkumar/thesis/install/turtlebot3_simulations:/home/naveenkumar/thesis/install/turtlebot3_bringup:/home/naveenkumar/thesis/install/turtlebot3_node:/home/naveenkumar/thesis/install/turtlebot3_navigation2:/home/naveenkumar/thesis/install/turtlebot3_fake_node:/home/naveenkumar/thesis/install/turtlebot3_msgs:/home/naveenkumar/thesis/install/turtlebot3_manipulation:/home/naveenkumar/thesis/install/turtlebot3_manipulation_teleop:/home/naveenkumar/thesis/install/turtlebot3_manipulation_navigation2:/home/naveenkumar/thesis/install/turtlebot3_manipulation_moveit_config:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware:/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description:/home/naveenkumar/thesis/install/turtlebot3_manipulation_cartographer:/home/naveenkumar/thesis/install/turtlebot3_gazebo:/home/naveenkumar/thesis/install/turtlebot3_description:/home/naveenkumar/thesis/install/turtlebot3_cartographer:/home/naveenkumar/thesis/install/dynamixel_sdk_examples:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces:/home/naveenkumar/thesis/install/dynamixel_sdk'}, 'shell': False}
+[11.659796] (worlds) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/worlds', 'build', '--build-base', '/home/naveenkumar/mobile_robot/build/worlds/build', 'install', '--record', '/home/naveenkumar/mobile_robot/build/worlds/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/naveenkumar/mobile_robot/src/worlds', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'naveenkumar', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/naveenkumar/thesis/install/turtlebot3_msgs/lib:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware/lib:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces/lib:/home/naveenkumar/thesis/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/naveenkumar', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1802', 'SYSTEMD_EXEC_PID': '1980', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7792', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/naveenkumar/AMR/install:/home/naveenkumar/thesis/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'naveenkumar', 'JOURNAL_STREAM': '8:16277', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'naveenkumar', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description/share:/usr/share/gazebo-11/models::/home/naveenkumar/mobile_robot/src/worlds/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/naveenkumar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/naveenkumar-HP-Pavilion-Laptop-15-cs1xxx:@/tmp/.ICE-unix/1957,unix/naveenkumar-HP-Pavilion-Laptop-15-cs1xxx:/tmp/.ICE-unix/1957', 'INVOCATION_ID': '512bce6f879c4f55991910679b4cd0e6', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MFAXV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/naveenkumar/AMR/install/telenex_ts100:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_simulations:/home/naveenkumar/thesis/install/turtlebot3_bringup:/home/naveenkumar/thesis/install/turtlebot3_node:/home/naveenkumar/thesis/install/turtlebot3_navigation2:/home/naveenkumar/thesis/install/turtlebot3_fake_node:/home/naveenkumar/thesis/install/turtlebot3_example:/home/naveenkumar/thesis/install/turtlebot3_msgs:/home/naveenkumar/thesis/install/turtlebot3_manipulation:/home/naveenkumar/thesis/install/turtlebot3_manipulation_teleop:/home/naveenkumar/thesis/install/turtlebot3_manipulation_navigation2:/home/naveenkumar/thesis/install/turtlebot3_manipulation_moveit_config:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware:/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description:/home/naveenkumar/thesis/install/turtlebot3_manipulation_cartographer:/home/naveenkumar/thesis/install/turtlebot3_gazebo:/home/naveenkumar/thesis/install/turtlebot3_description:/home/naveenkumar/thesis/install/turtlebot3_cartographer:/home/naveenkumar/thesis/install/dynamixel_sdk_examples:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces:/home/naveenkumar/thesis/install/dynamixel_sdk:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:604b3a30-253b-4455-aad3-5ee9cdfdf7c6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/naveenkumar/mobile_robot/build/worlds', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/telenex_robot_description/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/naveen_pkg/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/my_package/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_example/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/naveenkumar/AMR/install/telenex_ts100:/home/naveenkumar/thesis/install/turtlebot3:/home/naveenkumar/thesis/install/turtlebot3_simulations:/home/naveenkumar/thesis/install/turtlebot3_bringup:/home/naveenkumar/thesis/install/turtlebot3_node:/home/naveenkumar/thesis/install/turtlebot3_navigation2:/home/naveenkumar/thesis/install/turtlebot3_fake_node:/home/naveenkumar/thesis/install/turtlebot3_msgs:/home/naveenkumar/thesis/install/turtlebot3_manipulation:/home/naveenkumar/thesis/install/turtlebot3_manipulation_teleop:/home/naveenkumar/thesis/install/turtlebot3_manipulation_navigation2:/home/naveenkumar/thesis/install/turtlebot3_manipulation_moveit_config:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware:/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description:/home/naveenkumar/thesis/install/turtlebot3_manipulation_cartographer:/home/naveenkumar/thesis/install/turtlebot3_gazebo:/home/naveenkumar/thesis/install/turtlebot3_description:/home/naveenkumar/thesis/install/turtlebot3_cartographer:/home/naveenkumar/thesis/install/dynamixel_sdk_examples:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces:/home/naveenkumar/thesis/install/dynamixel_sdk'}, 'shell': False}
+[11.712228] (-) TimerEvent: {}
+[11.817107] (-) TimerEvent: {}
+[11.922707] (-) TimerEvent: {}
+[12.026049] (-) TimerEvent: {}
+[12.129431] (-) TimerEvent: {}
+[12.239260] (-) TimerEvent: {}
+[12.340651] (-) TimerEvent: {}
+[12.442883] (-) TimerEvent: {}
+[12.545253] (-) TimerEvent: {}
+[12.647000] (-) TimerEvent: {}
+[12.748948] (-) TimerEvent: {}
+[12.851766] (-) TimerEvent: {}
+[12.953474] (-) TimerEvent: {}
+[13.055499] (-) TimerEvent: {}
+[13.158760] (-) TimerEvent: {}
+[13.261325] (-) TimerEvent: {}
+[13.363650] (-) TimerEvent: {}
+[13.466292] (-) TimerEvent: {}
+[13.568718] (-) TimerEvent: {}
+[13.670070] (-) TimerEvent: {}
+[13.779359] (-) TimerEvent: {}
+[13.883080] (-) TimerEvent: {}
+[13.984389] (-) TimerEvent: {}
+[14.085551] (-) TimerEvent: {}
+[14.190209] (-) TimerEvent: {}
+[14.292488] (-) TimerEvent: {}
+[14.396740] (-) TimerEvent: {}
+[14.501468] (-) TimerEvent: {}
+[14.603272] (-) TimerEvent: {}
+[14.705240] (-) TimerEvent: {}
+[14.729000] (worlds) StdoutLine: {'line': b'running egg_info\n'}
+[14.733884] (worlds) StdoutLine: {'line': b'writing ../../build/worlds/worlds.egg-info/PKG-INFO\n'}
+[14.738271] (worlds) StdoutLine: {'line': b'writing dependency_links to ../../build/worlds/worlds.egg-info/dependency_links.txt\n'}
+[14.741693] (worlds) StdoutLine: {'line': b'writing entry points to ../../build/worlds/worlds.egg-info/entry_points.txt\n'}
+[14.743458] (worlds) StdoutLine: {'line': b'writing requirements to ../../build/worlds/worlds.egg-info/requires.txt\n'}
+[14.744546] (worlds) StdoutLine: {'line': b'writing top-level names to ../../build/worlds/worlds.egg-info/top_level.txt\n'}
+[14.758369] (worlds) StdoutLine: {'line': b"reading manifest file '../../build/worlds/worlds.egg-info/SOURCES.txt'\n"}
+[14.767252] (worlds) StdoutLine: {'line': b"writing manifest file '../../build/worlds/worlds.egg-info/SOURCES.txt'\n"}
+[14.769816] (worlds) StdoutLine: {'line': b'running build\n'}
+[14.777382] (worlds) StdoutLine: {'line': b'running build_py\n'}
+[14.781131] (worlds) StdoutLine: {'line': b'running install\n'}
+[14.781749] (worlds) StdoutLine: {'line': b'running install_lib\n'}
+[14.788606] (worlds) StdoutLine: {'line': b'running install_data\n'}
+[14.793480] (worlds) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.806308] (-) TimerEvent: {}
+[14.815296] (worlds) StdoutLine: {'line': b"removing '/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.819089] (worlds) StdoutLine: {'line': b'Copying ../../build/worlds/worlds.egg-info to /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds-0.0.0-py3.10.egg-info\n'}
+[14.831701] (worlds) StdoutLine: {'line': b'running install_scripts\n'}
+[14.907231] (-) TimerEvent: {}
+[14.959226] (robot_control) StdoutLine: {'line': b'running egg_info\n'}
+[14.964367] (robot_control) StdoutLine: {'line': b'writing ../../build/robot_control/robot_control.egg-info/PKG-INFO\n'}
+[14.967262] (robot_control) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt\n'}
+[14.968733] (robot_control) StdoutLine: {'line': b'writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt\n'}
+[14.969905] (robot_control) StdoutLine: {'line': b'writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt\n'}
+[14.971272] (robot_control) StdoutLine: {'line': b'writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt\n'}
+[14.990498] (robot_control) StdoutLine: {'line': b"reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[15.001572] (robot_control) StdoutLine: {'line': b"writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[15.005147] (robot_control) StdoutLine: {'line': b'running build\n'}
+[15.006120] (robot_control) StdoutLine: {'line': b'running build_py\n'}
+[15.006383] (robot_control) StdoutLine: {'line': b'running install\n'}
+[15.007278] (robot_control) StdoutLine: {'line': b'running install_lib\n'}
+[15.008334] (-) TimerEvent: {}
+[15.020822] (worlds) StdoutLine: {'line': b"writing list of installed files to '/home/naveenkumar/mobile_robot/build/worlds/install.log'\n"}
+[15.021717] (robot_control) StdoutLine: {'line': b'running install_data\n'}
+[15.022262] (robot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.044629] (robot_control) StdoutLine: {'line': b"removing '/home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.051717] (robot_control) StdoutLine: {'line': b'Copying ../../build/robot_control/robot_control.egg-info to /home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info\n'}
+[15.056604] (robot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[15.110442] (-) TimerEvent: {}
+[15.212567] (-) TimerEvent: {}
+[15.265524] (robot_control) StdoutLine: {'line': b"writing list of installed files to '/home/naveenkumar/mobile_robot/build/robot_control/install.log'\n"}
+[15.317364] (-) TimerEvent: {}
+[15.354590] (worlds) CommandEnded: {'returncode': 0}
+[15.419653] (-) TimerEvent: {}
+[15.433652] (worlds) JobEnded: {'identifier': 'worlds', 'rc': 0}
+[15.445947] (simulations) JobStarted: {'identifier': 'simulations'}
+[15.520485] (-) TimerEvent: {}
+[15.622533] (-) TimerEvent: {}
+[15.724300] (-) TimerEvent: {}
+[15.826600] (-) TimerEvent: {}
+[15.928221] (-) TimerEvent: {}
+[16.029147] (-) TimerEvent: {}
+[16.130992] (-) TimerEvent: {}
+[16.231816] (-) TimerEvent: {}
+[16.333135] (-) TimerEvent: {}
+[16.435217] (-) TimerEvent: {}
+[16.536517] (-) TimerEvent: {}
+[16.637491] (-) TimerEvent: {}
+[16.739559] (-) TimerEvent: {}
+[16.840361] (-) TimerEvent: {}
+[16.941305] (-) TimerEvent: {}
+[17.043682] (-) TimerEvent: {}
+[17.144807] (-) TimerEvent: {}
+[17.246546] (-) TimerEvent: {}
+[17.348794] (-) TimerEvent: {}
+[17.449815] (-) TimerEvent: {}
+[17.550781] (-) TimerEvent: {}
+[17.652031] (-) TimerEvent: {}
+[17.752747] (-) TimerEvent: {}
+[17.853767] (-) TimerEvent: {}
+[17.960180] (-) TimerEvent: {}
+[18.061344] (-) TimerEvent: {}
+[18.163506] (-) TimerEvent: {}
+[18.265126] (-) TimerEvent: {}
+[18.366009] (-) TimerEvent: {}
+[18.470894] (robot_control) CommandEnded: {'returncode': 0}
+[18.473221] (-) TimerEvent: {}
+[18.524719] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 0}
+[18.573473] (-) TimerEvent: {}
+[18.675296] (-) TimerEvent: {}
+[18.778527] (-) TimerEvent: {}
+[18.880256] (-) TimerEvent: {}
+[18.982232] (-) TimerEvent: {}
+[19.085718] (-) TimerEvent: {}
+[19.189529] (-) TimerEvent: {}
+[19.291493] (-) TimerEvent: {}
+[19.393727] (-) TimerEvent: {}
+[19.495825] (-) TimerEvent: {}
+[19.596802] (-) TimerEvent: {}
+[19.700992] (-) TimerEvent: {}
+[19.802030] (-) TimerEvent: {}
+[19.902958] (-) TimerEvent: {}
+[20.005004] (-) TimerEvent: {}
+[20.106563] (-) TimerEvent: {}
+[20.207340] (-) TimerEvent: {}
+[20.308867] (-) TimerEvent: {}
+[20.409626] (-) TimerEvent: {}
+[20.511426] (-) TimerEvent: {}
+[20.615569] (-) TimerEvent: {}
+[20.717913] (-) TimerEvent: {}
+[20.821172] (-) TimerEvent: {}
+[20.922230] (-) TimerEvent: {}
+[21.023136] (-) TimerEvent: {}
+[21.125334] (-) TimerEvent: {}
+[21.227157] (-) TimerEvent: {}
+[21.329712] (-) TimerEvent: {}
+[21.432130] (-) TimerEvent: {}
+[21.533790] (-) TimerEvent: {}
+[21.637375] (-) TimerEvent: {}
+[21.738978] (-) TimerEvent: {}
+[21.841191] (-) TimerEvent: {}
+[21.943431] (-) TimerEvent: {}
+[22.048113] (-) TimerEvent: {}
+[22.152366] (-) TimerEvent: {}
+[22.259633] (-) TimerEvent: {}
+[22.364096] (-) TimerEvent: {}
+[22.467490] (-) TimerEvent: {}
+[22.569804] (-) TimerEvent: {}
+[22.672067] (-) TimerEvent: {}
+[22.774553] (-) TimerEvent: {}
+[22.802996] (simulations) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/simulations', 'build', '--build-base', '/home/naveenkumar/mobile_robot/build/simulations/build', 'install', '--record', '/home/naveenkumar/mobile_robot/build/simulations/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/naveenkumar/mobile_robot/src/simulations', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'naveenkumar', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/naveenkumar/thesis/install/turtlebot3_msgs/lib:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware/lib:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces/lib:/home/naveenkumar/thesis/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/naveenkumar', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1802', 'SYSTEMD_EXEC_PID': '1980', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7792', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/naveenkumar/AMR/install:/home/naveenkumar/thesis/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'naveenkumar', 'JOURNAL_STREAM': '8:16277', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'naveenkumar', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description/share:/usr/share/gazebo-11/models::/home/naveenkumar/mobile_robot/src/worlds/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/naveenkumar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/naveenkumar-HP-Pavilion-Laptop-15-cs1xxx:@/tmp/.ICE-unix/1957,unix/naveenkumar-HP-Pavilion-Laptop-15-cs1xxx:/tmp/.ICE-unix/1957', 'INVOCATION_ID': '512bce6f879c4f55991910679b4cd0e6', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MFAXV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/naveenkumar/mobile_robot/install/worlds:/home/naveenkumar/mobile_robot/install/robot_description:/home/naveenkumar/AMR/install/telenex_ts100:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_simulations:/home/naveenkumar/thesis/install/turtlebot3_bringup:/home/naveenkumar/thesis/install/turtlebot3_node:/home/naveenkumar/thesis/install/turtlebot3_navigation2:/home/naveenkumar/thesis/install/turtlebot3_fake_node:/home/naveenkumar/thesis/install/turtlebot3_example:/home/naveenkumar/thesis/install/turtlebot3_msgs:/home/naveenkumar/thesis/install/turtlebot3_manipulation:/home/naveenkumar/thesis/install/turtlebot3_manipulation_teleop:/home/naveenkumar/thesis/install/turtlebot3_manipulation_navigation2:/home/naveenkumar/thesis/install/turtlebot3_manipulation_moveit_config:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware:/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description:/home/naveenkumar/thesis/install/turtlebot3_manipulation_cartographer:/home/naveenkumar/thesis/install/turtlebot3_gazebo:/home/naveenkumar/thesis/install/turtlebot3_description:/home/naveenkumar/thesis/install/turtlebot3_cartographer:/home/naveenkumar/thesis/install/dynamixel_sdk_examples:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces:/home/naveenkumar/thesis/install/dynamixel_sdk:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:604b3a30-253b-4455-aad3-5ee9cdfdf7c6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/naveenkumar/mobile_robot/build/simulations', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/naveenkumar/mobile_robot/build/simulations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/telenex_robot_description/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/naveen_pkg/lib/python3.10/site-packages:/home/naveenkumar/AMR/install/my_package/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_example/lib/python3.10/site-packages:/home/naveenkumar/thesis/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/naveenkumar/mobile_robot/install/robot_description:/home/naveenkumar/AMR/install/telenex_ts100:/home/naveenkumar/thesis/install/turtlebot3:/home/naveenkumar/thesis/install/turtlebot3_simulations:/home/naveenkumar/thesis/install/turtlebot3_bringup:/home/naveenkumar/thesis/install/turtlebot3_node:/home/naveenkumar/thesis/install/turtlebot3_navigation2:/home/naveenkumar/thesis/install/turtlebot3_fake_node:/home/naveenkumar/thesis/install/turtlebot3_msgs:/home/naveenkumar/thesis/install/turtlebot3_manipulation:/home/naveenkumar/thesis/install/turtlebot3_manipulation_teleop:/home/naveenkumar/thesis/install/turtlebot3_manipulation_navigation2:/home/naveenkumar/thesis/install/turtlebot3_manipulation_moveit_config:/home/naveenkumar/thesis/install/turtlebot3_manipulation_hardware:/home/naveenkumar/thesis/install/turtlebot3_manipulation_bringup:/home/naveenkumar/thesis/install/turtlebot3_manipulation_description:/home/naveenkumar/thesis/install/turtlebot3_manipulation_cartographer:/home/naveenkumar/thesis/install/turtlebot3_gazebo:/home/naveenkumar/thesis/install/turtlebot3_description:/home/naveenkumar/thesis/install/turtlebot3_cartographer:/home/naveenkumar/thesis/install/dynamixel_sdk_examples:/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces:/home/naveenkumar/thesis/install/dynamixel_sdk'}, 'shell': False}
+[22.874610] (-) TimerEvent: {}
+[22.980216] (-) TimerEvent: {}
+[23.084389] (-) TimerEvent: {}
+[23.187876] (-) TimerEvent: {}
+[23.298289] (-) TimerEvent: {}
+[23.401923] (-) TimerEvent: {}
+[23.503649] (-) TimerEvent: {}
+[23.605973] (-) TimerEvent: {}
+[23.707739] (-) TimerEvent: {}
+[23.808807] (-) TimerEvent: {}
+[23.910780] (-) TimerEvent: {}
+[24.012446] (-) TimerEvent: {}
+[24.113419] (-) TimerEvent: {}
+[24.215272] (-) TimerEvent: {}
+[24.318291] (-) TimerEvent: {}
+[24.420454] (-) TimerEvent: {}
+[24.521783] (-) TimerEvent: {}
+[24.622366] (-) TimerEvent: {}
+[24.725684] (-) TimerEvent: {}
+[24.826885] (-) TimerEvent: {}
+[24.927579] (-) TimerEvent: {}
+[25.030583] (-) TimerEvent: {}
+[25.131900] (-) TimerEvent: {}
+[25.232569] (-) TimerEvent: {}
+[25.335210] (-) TimerEvent: {}
+[25.438444] (-) TimerEvent: {}
+[25.540914] (-) TimerEvent: {}
+[25.630746] (simulations) StdoutLine: {'line': b'running egg_info\n'}
+[25.637983] (simulations) StdoutLine: {'line': b'writing ../../build/simulations/simulations.egg-info/PKG-INFO\n'}
+[25.639800] (simulations) StdoutLine: {'line': b'writing dependency_links to ../../build/simulations/simulations.egg-info/dependency_links.txt\n'}
+[25.640803] (simulations) StdoutLine: {'line': b'writing entry points to ../../build/simulations/simulations.egg-info/entry_points.txt\n'}
+[25.642129] (-) TimerEvent: {}
+[25.643122] (simulations) StdoutLine: {'line': b'writing requirements to ../../build/simulations/simulations.egg-info/requires.txt\n'}
+[25.643591] (simulations) StdoutLine: {'line': b'writing top-level names to ../../build/simulations/simulations.egg-info/top_level.txt\n'}
+[25.658400] (simulations) StdoutLine: {'line': b"reading manifest file '../../build/simulations/simulations.egg-info/SOURCES.txt'\n"}
+[25.665251] (simulations) StdoutLine: {'line': b"writing manifest file '../../build/simulations/simulations.egg-info/SOURCES.txt'\n"}
+[25.668104] (simulations) StdoutLine: {'line': b'running build\n'}
+[25.669061] (simulations) StdoutLine: {'line': b'running build_py\n'}
+[25.669550] (simulations) StdoutLine: {'line': b'running install\n'}
+[25.672117] (simulations) StdoutLine: {'line': b'running install_lib\n'}
+[25.677330] (simulations) StdoutLine: {'line': b'running install_data\n'}
+[25.680156] (simulations) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.702655] (simulations) StdoutLine: {'line': b"removing '/home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages/simulations-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[25.704995] (simulations) StdoutLine: {'line': b'Copying ../../build/simulations/simulations.egg-info to /home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages/simulations-0.0.0-py3.10.egg-info\n'}
+[25.713987] (simulations) StdoutLine: {'line': b'running install_scripts\n'}
+[25.742721] (-) TimerEvent: {}
+[25.844604] (-) TimerEvent: {}
+[25.936225] (simulations) StdoutLine: {'line': b"writing list of installed files to '/home/naveenkumar/mobile_robot/build/simulations/install.log'\n"}
+[25.945193] (-) TimerEvent: {}
+[26.048631] (-) TimerEvent: {}
+[26.150221] (-) TimerEvent: {}
+[26.252622] (-) TimerEvent: {}
+[26.317976] (simulations) CommandEnded: {'returncode': 0}
+[26.355134] (-) TimerEvent: {}
+[26.397951] (simulations) JobEnded: {'identifier': 'simulations', 'rc': 0}
+[26.407922] (-) EventReactorShutdown: {}

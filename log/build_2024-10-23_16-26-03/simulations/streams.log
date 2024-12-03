@@ -1,0 +1,20 @@
+[0.768s] Invoking command in '/home/naveenkumar/mobile_robot/src/simulations': AMENT_PREFIX_PATH=/home/naveenkumar/mobile_robot/install/worlds:/home/naveenkumar/mobile_robot/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveenkumar/mobile_robot/install/robot_description:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/naveenkumar/mobile_robot/build/simulations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulations build --build-base /home/naveenkumar/mobile_robot/build/simulations/build install --record /home/naveenkumar/mobile_robot/build/simulations/install.log --single-version-externally-managed install_data
+[1.055s] running egg_info
+[1.055s] writing ../../build/simulations/simulations.egg-info/PKG-INFO
+[1.056s] writing dependency_links to ../../build/simulations/simulations.egg-info/dependency_links.txt
+[1.056s] writing entry points to ../../build/simulations/simulations.egg-info/entry_points.txt
+[1.056s] writing requirements to ../../build/simulations/simulations.egg-info/requires.txt
+[1.056s] writing top-level names to ../../build/simulations/simulations.egg-info/top_level.txt
+[1.059s] reading manifest file '../../build/simulations/simulations.egg-info/SOURCES.txt'
+[1.059s] writing manifest file '../../build/simulations/simulations.egg-info/SOURCES.txt'
+[1.060s] running build
+[1.060s] running build_py
+[1.060s] running install
+[1.060s] running install_lib
+[1.061s] running install_data
+[1.062s] running install_egg_info
+[1.063s] removing '/home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages/simulations-0.0.0-py3.10.egg-info' (and everything under it)
+[1.064s] Copying ../../build/simulations/simulations.egg-info to /home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages/simulations-0.0.0-py3.10.egg-info
+[1.065s] running install_scripts
+[1.086s] writing list of installed files to '/home/naveenkumar/mobile_robot/build/simulations/install.log'
+[1.110s] Invoked command in '/home/naveenkumar/mobile_robot/src/simulations' returned '0': AMENT_PREFIX_PATH=/home/naveenkumar/mobile_robot/install/worlds:/home/naveenkumar/mobile_robot/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveenkumar/mobile_robot/install/robot_description:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/naveenkumar/mobile_robot/build/simulations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulations build --build-base /home/naveenkumar/mobile_robot/build/simulations/build install --record /home/naveenkumar/mobile_robot/build/simulations/install.log --single-version-externally-managed install_data

@@ -1,0 +1,9 @@
+[1.885s] Invoking command in '/home/naveenkumar/mobile_robot/src/robot_control': PYTHONPATH=/home/naveenkumar/mobile_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/naveenkumar/mobile_robot/build/robot_control/build install --record /home/naveenkumar/mobile_robot/build/robot_control/install.log --single-version-externally-managed install_data
+[2.323s] running egg_info
+[2.324s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[2.328s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[2.329s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[2.329s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[2.329s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[2.331s] error: package directory 'src/robot_control' does not exist
+[2.369s] Invoked command in '/home/naveenkumar/mobile_robot/src/robot_control' returned '1': PYTHONPATH=/home/naveenkumar/mobile_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/naveenkumar/mobile_robot/build/robot_control/build install --record /home/naveenkumar/mobile_robot/build/robot_control/install.log --single-version-externally-managed install_data

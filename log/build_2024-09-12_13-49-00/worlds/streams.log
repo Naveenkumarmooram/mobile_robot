@@ -1,0 +1,33 @@
+[1.072s] Invoking command in '/home/naveenkumar/mobile_robot/src/worlds': PYTHONPATH=/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/worlds build --build-base /home/naveenkumar/mobile_robot/build/worlds/build install --record /home/naveenkumar/mobile_robot/build/worlds/install.log --single-version-externally-managed install_data
+[1.514s] running egg_info
+[1.515s] creating ../../build/worlds/worlds.egg-info
+[1.515s] writing ../../build/worlds/worlds.egg-info/PKG-INFO
+[1.515s] writing dependency_links to ../../build/worlds/worlds.egg-info/dependency_links.txt
+[1.516s] writing entry points to ../../build/worlds/worlds.egg-info/entry_points.txt
+[1.516s] writing requirements to ../../build/worlds/worlds.egg-info/requires.txt
+[1.516s] writing top-level names to ../../build/worlds/worlds.egg-info/top_level.txt
+[1.516s] writing manifest file '../../build/worlds/worlds.egg-info/SOURCES.txt'
+[1.519s] reading manifest file '../../build/worlds/worlds.egg-info/SOURCES.txt'
+[1.521s] writing manifest file '../../build/worlds/worlds.egg-info/SOURCES.txt'
+[1.521s] running build
+[1.521s] running build_py
+[1.521s] creating /home/naveenkumar/mobile_robot/build/worlds/build
+[1.522s] creating /home/naveenkumar/mobile_robot/build/worlds/build/lib
+[1.522s] creating /home/naveenkumar/mobile_robot/build/worlds/build/lib/worlds
+[1.522s] copying worlds/__init__.py -> /home/naveenkumar/mobile_robot/build/worlds/build/lib/worlds
+[1.522s] running install
+[1.523s] running install_lib
+[1.525s] creating /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds
+[1.526s] copying /home/naveenkumar/mobile_robot/build/worlds/build/lib/worlds/__init__.py -> /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds
+[1.526s] byte-compiling /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds/__init__.py to __init__.cpython-310.pyc
+[1.527s] running install_data
+[1.527s] creating /home/naveenkumar/mobile_robot/install/worlds/share/ament_index
+[1.527s] creating /home/naveenkumar/mobile_robot/install/worlds/share/ament_index/resource_index
+[1.527s] creating /home/naveenkumar/mobile_robot/install/worlds/share/ament_index/resource_index/packages
+[1.527s] copying resource/worlds -> /home/naveenkumar/mobile_robot/install/worlds/share/ament_index/resource_index/packages
+[1.527s] copying package.xml -> /home/naveenkumar/mobile_robot/install/worlds/share/worlds
+[1.527s] running install_egg_info
+[1.530s] Copying ../../build/worlds/worlds.egg-info to /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds-0.0.0-py3.10.egg-info
+[1.531s] running install_scripts
+[1.564s] writing list of installed files to '/home/naveenkumar/mobile_robot/build/worlds/install.log'
+[1.609s] Invoked command in '/home/naveenkumar/mobile_robot/src/worlds' returned '0': PYTHONPATH=/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/worlds build --build-base /home/naveenkumar/mobile_robot/build/worlds/build install --record /home/naveenkumar/mobile_robot/build/worlds/install.log --single-version-externally-managed install_data

@@ -1,0 +1,299 @@
+[0.255s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.255s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fe717a68880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe717bddde0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe717bddde0>>, mixin_verb=('build',))
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.701s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/naveenkumar/mobile_robot'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore_ament_install'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_pkg']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_pkg'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_meta']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_meta'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ros']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ros'
+[0.755s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control' with type 'ros.ament_python' and name 'robot_control'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.760s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulations) by extension 'ignore'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulations) by extension 'ignore_ament_install'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulations) by extensions ['colcon_pkg']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulations) by extension 'colcon_pkg'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulations) by extensions ['colcon_meta']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulations) by extension 'colcon_meta'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulations) by extensions ['ros']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulations) by extension 'ros'
+[0.761s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulations' with type 'ros.ament_python' and name 'simulations'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'ignore_ament_install'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['colcon_pkg']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'colcon_pkg'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['colcon_meta']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'colcon_meta'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['ros']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'ros'
+[0.763s] DEBUG:colcon.colcon_core.package_identification:Package 'src/worlds' with type 'ros.ament_python' and name 'worlds'
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.799s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/naveenkumar/AMR/install
+[0.800s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 23 installed packages in /home/naveenkumar/thesis/install
+[0.805s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 418 installed packages in /opt/ros/humble
+[0.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.905s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/naveenkumar/mobile_robot/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/naveenkumar/mobile_robot/install/robot_control', 'merge_install': False, 'path': '/home/naveenkumar/mobile_robot/src/robot_control', 'symlink_install': False, 'test_result_base': None}
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.906s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/naveenkumar/mobile_robot/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/naveenkumar/mobile_robot/install/robot_description', 'merge_install': False, 'path': '/home/naveenkumar/mobile_robot/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'worlds' build argument 'cmake_args' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'worlds' build argument 'cmake_target' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'worlds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'worlds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'worlds' build argument 'cmake_clean_first' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'worlds' build argument 'cmake_force_configure' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'worlds' build argument 'ament_cmake_args' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'worlds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'worlds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.906s] DEBUG:colcon.colcon_core.verb:Building package 'worlds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/naveenkumar/mobile_robot/build/worlds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/naveenkumar/mobile_robot/install/worlds', 'merge_install': False, 'path': '/home/naveenkumar/mobile_robot/src/worlds', 'symlink_install': False, 'test_result_base': None}
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'cmake_args' from command line to 'None'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'cmake_target' from command line to 'None'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.907s] DEBUG:colcon.colcon_core.verb:Building package 'simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/naveenkumar/mobile_robot/build/simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/naveenkumar/mobile_robot/install/simulations', 'merge_install': False, 'path': '/home/naveenkumar/mobile_robot/src/simulations', 'symlink_install': False, 'test_result_base': None}
+[0.907s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.908s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.909s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/naveenkumar/mobile_robot/src/robot_description' with build type 'ament_cmake'
+[0.909s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/naveenkumar/mobile_robot/src/robot_description'
+[0.911s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.911s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.924s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/naveenkumar/mobile_robot/src/worlds' with build type 'ament_python'
+[0.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('worlds', 'ament_prefix_path')
+[0.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/worlds/share/worlds/hook/ament_prefix_path.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naveenkumar/mobile_robot/install/worlds/share/worlds/hook/ament_prefix_path.dsv'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/worlds/share/worlds/hook/ament_prefix_path.sh'
+[0.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.943s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/naveenkumar/mobile_robot/src/robot_control' with build type 'ament_python'
+[0.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'ament_prefix_path')
+[0.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/robot_control/share/robot_control/hook/ament_prefix_path.ps1'
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naveenkumar/mobile_robot/install/robot_control/share/robot_control/hook/ament_prefix_path.dsv'
+[0.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/robot_control/share/robot_control/hook/ament_prefix_path.sh'
+[0.954s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.955s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naveenkumar/mobile_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/naveenkumar/mobile_robot/build/robot_description -- -j8 -l8
+[1.852s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/naveenkumar/mobile_robot/src/worlds'
+[1.853s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.853s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.573s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/naveenkumar/mobile_robot/src/robot_control'
+[2.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.574s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naveenkumar/mobile_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/naveenkumar/mobile_robot/build/robot_description -- -j8 -l8
+[2.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naveenkumar/mobile_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/naveenkumar/mobile_robot/build/robot_description
+[2.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[2.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naveenkumar/mobile_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/naveenkumar/mobile_robot/build/robot_description
+[2.795s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_description' for CMake module files
+[2.796s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_description' for CMake config files
+[2.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[2.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[2.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[2.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_description/bin'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_description/lib/pkgconfig/robot_description.pc'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_description/lib/python3.10/site-packages'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_description/bin'
+[2.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.ps1'
+[2.809s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.dsv'
+[2.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.sh'
+[2.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.bash'
+[2.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.zsh'
+[2.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naveenkumar/mobile_robot/install/robot_description/share/colcon-core/packages/robot_description)
+[2.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[2.885s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_description' for CMake module files
+[2.890s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_description' for CMake config files
+[2.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[2.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[2.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[2.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_description/bin'
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_description/lib/pkgconfig/robot_description.pc'
+[2.897s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_description/lib/python3.10/site-packages'
+[2.900s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_description/bin'
+[2.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.ps1'
+[2.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.dsv'
+[2.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.sh'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.bash'
+[2.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.zsh'
+[2.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naveenkumar/mobile_robot/install/robot_description/share/colcon-core/packages/robot_description)
+[3.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naveenkumar/mobile_robot/src/worlds': PYTHONPATH=/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/worlds build --build-base /home/naveenkumar/mobile_robot/build/worlds/build install --record /home/naveenkumar/mobile_robot/build/worlds/install.log --single-version-externally-managed install_data
+[3.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naveenkumar/mobile_robot/src/robot_control': PYTHONPATH=/home/naveenkumar/mobile_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/naveenkumar/mobile_robot/build/robot_control/build install --record /home/naveenkumar/mobile_robot/build/robot_control/install.log --single-version-externally-managed install_data
+[5.118s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/worlds' for CMake module files
+[5.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naveenkumar/mobile_robot/src/worlds' returned '0': PYTHONPATH=/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/worlds build --build-base /home/naveenkumar/mobile_robot/build/worlds/build install --record /home/naveenkumar/mobile_robot/build/worlds/install.log --single-version-externally-managed install_data
+[5.120s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/worlds' for CMake config files
+[5.127s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/worlds/lib'
+[5.128s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/worlds/bin'
+[5.128s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/worlds/lib/pkgconfig/worlds.pc'
+[5.129s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages'
+[5.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('worlds', 'pythonpath')
+[5.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/worlds/share/worlds/hook/pythonpath.ps1'
+[5.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naveenkumar/mobile_robot/install/worlds/share/worlds/hook/pythonpath.dsv'
+[5.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/worlds/share/worlds/hook/pythonpath.sh'
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/worlds/bin'
+[5.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(worlds)
+[5.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/worlds/share/worlds/package.ps1'
+[5.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naveenkumar/mobile_robot/install/worlds/share/worlds/package.dsv'
+[5.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/worlds/share/worlds/package.sh'
+[5.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/worlds/share/worlds/package.bash'
+[5.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/worlds/share/worlds/package.zsh'
+[5.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naveenkumar/mobile_robot/install/worlds/share/colcon-core/packages/worlds)
+[5.144s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/naveenkumar/mobile_robot/src/simulations' with build type 'ament_python'
+[5.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulations', 'ament_prefix_path')
+[5.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/simulations/share/simulations/hook/ament_prefix_path.ps1'
+[5.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naveenkumar/mobile_robot/install/simulations/share/simulations/hook/ament_prefix_path.dsv'
+[5.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/simulations/share/simulations/hook/ament_prefix_path.sh'
+[5.148s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.148s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.166s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_control' for CMake module files
+[5.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naveenkumar/mobile_robot/src/robot_control' returned '0': PYTHONPATH=/home/naveenkumar/mobile_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/naveenkumar/mobile_robot/build/robot_control/build install --record /home/naveenkumar/mobile_robot/build/robot_control/install.log --single-version-externally-managed install_data
+[5.168s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_control' for CMake config files
+[5.169s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_control/lib'
+[5.169s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_control/bin'
+[5.170s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_control/lib/pkgconfig/robot_control.pc'
+[5.172s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages'
+[5.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'pythonpath')
+[5.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/robot_control/share/robot_control/hook/pythonpath.ps1'
+[5.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naveenkumar/mobile_robot/install/robot_control/share/robot_control/hook/pythonpath.dsv'
+[5.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/robot_control/share/robot_control/hook/pythonpath.sh'
+[5.183s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/robot_control/bin'
+[5.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control)
+[5.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/robot_control/share/robot_control/package.ps1'
+[5.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naveenkumar/mobile_robot/install/robot_control/share/robot_control/package.dsv'
+[5.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/robot_control/share/robot_control/package.sh'
+[5.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/robot_control/share/robot_control/package.bash'
+[5.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/robot_control/share/robot_control/package.zsh'
+[5.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naveenkumar/mobile_robot/install/robot_control/share/colcon-core/packages/robot_control)
+[6.017s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/naveenkumar/mobile_robot/src/simulations'
+[6.022s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naveenkumar/mobile_robot/src/simulations': AMENT_PREFIX_PATH=/home/naveenkumar/mobile_robot/install/worlds:/home/naveenkumar/mobile_robot/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveenkumar/mobile_robot/install/robot_description:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/naveenkumar/mobile_robot/build/simulations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulations build --build-base /home/naveenkumar/mobile_robot/build/simulations/build install --record /home/naveenkumar/mobile_robot/build/simulations/install.log --single-version-externally-managed install_data
+[7.839s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/simulations' for CMake module files
+[7.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naveenkumar/mobile_robot/src/simulations' returned '0': AMENT_PREFIX_PATH=/home/naveenkumar/mobile_robot/install/worlds:/home/naveenkumar/mobile_robot/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveenkumar/mobile_robot/install/robot_description:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/naveenkumar/mobile_robot/build/simulations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulations build --build-base /home/naveenkumar/mobile_robot/build/simulations/build install --record /home/naveenkumar/mobile_robot/build/simulations/install.log --single-version-externally-managed install_data
+[7.840s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/simulations' for CMake config files
+[7.843s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/simulations/lib'
+[7.845s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/simulations/bin'
+[7.847s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/simulations/lib/pkgconfig/simulations.pc'
+[7.848s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages'
+[7.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulations', 'pythonpath')
+[7.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/simulations/share/simulations/hook/pythonpath.ps1'
+[7.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naveenkumar/mobile_robot/install/simulations/share/simulations/hook/pythonpath.dsv'
+[7.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naveenkumar/mobile_robot/install/simulations/share/simulations/hook/pythonpath.sh'
+[7.851s] Level 1:colcon.colcon_core.environment:checking '/home/naveenkumar/mobile_robot/install/simulations/bin'
+[7.851s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulations)
+[7.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/simulations/share/simulations/package.ps1'
+[7.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naveenkumar/mobile_robot/install/simulations/share/simulations/package.dsv'
+[7.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/simulations/share/simulations/package.sh'
+[7.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/simulations/share/simulations/package.bash'
+[7.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/naveenkumar/mobile_robot/install/simulations/share/simulations/package.zsh'
+[7.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naveenkumar/mobile_robot/install/simulations/share/colcon-core/packages/simulations)
+[7.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.855s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.871s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.903s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.903s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naveenkumar/mobile_robot/install/local_setup.ps1'
+[7.912s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/naveenkumar/mobile_robot/install/_local_setup_util_ps1.py'
+[7.917s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naveenkumar/mobile_robot/install/setup.ps1'
+[7.930s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naveenkumar/mobile_robot/install/local_setup.sh'
+[7.932s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/naveenkumar/mobile_robot/install/_local_setup_util_sh.py'
+[7.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naveenkumar/mobile_robot/install/setup.sh'
+[7.942s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naveenkumar/mobile_robot/install/local_setup.bash'
+[7.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naveenkumar/mobile_robot/install/setup.bash'
+[7.950s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naveenkumar/mobile_robot/install/local_setup.zsh'
+[7.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naveenkumar/mobile_robot/install/setup.zsh'

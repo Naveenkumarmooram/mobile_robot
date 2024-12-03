@@ -1,0 +1,32 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/naveenkumar/AMR/install/telenex_robot_description/lib/python3.10/site-packages",
+        "/home/naveenkumar/AMR/install/naveen_pkg/lib/python3.10/site-packages",
+        "/home/naveenkumar/AMR/install/my_package/lib/python3.10/site-packages",
+        "/home/naveenkumar/ros2_ws/install/prac_pkg/lib/python3.10/site-packages",
+        "/home/naveenkumar/ros2_ws/install/Prac_pkg/lib/python3.10/site-packages",
+        "/home/naveenkumar/ros2_ws/build/4w_robot",
+        "/home/naveenkumar/ros2_ws/install/4w_robot/lib/python3.10/site-packages",
+        "/home/naveenkumar/thesis/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/naveenkumar/thesis/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/naveenkumar/thesis/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/naveenkumar/AMR/install/telenex_robot_description/lib/python3.10/site-packages",
+        "/home/naveenkumar/AMR/install/naveen_pkg/lib/python3.10/site-packages",
+        "/home/naveenkumar/AMR/install/my_package/lib/python3.10/site-packages",
+        "/home/naveenkumar/ros2_ws/install/prac_pkg/lib/python3.10/site-packages",
+        "/home/naveenkumar/ros2_ws/install/Prac_pkg/lib/python3.10/site-packages",
+        "/home/naveenkumar/ros2_ws/build/4w_robot",
+        "/home/naveenkumar/ros2_ws/install/4w_robot/lib/python3.10/site-packages",
+        "/home/naveenkumar/thesis/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/naveenkumar/thesis/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/naveenkumar/thesis/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/naveenkumar/thesis/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/worlds/worlds.egg-info/PKG-INFO
+../../build/worlds/worlds.egg-info/SOURCES.txt
+../../build/worlds/worlds.egg-info/dependency_links.txt
+../../build/worlds/worlds.egg-info/entry_points.txt
+../../build/worlds/worlds.egg-info/requires.txt
+../../build/worlds/worlds.egg-info/top_level.txt
+../../build/worlds/worlds.egg-info/zip-safe
+resource/worlds
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+worlds/__init__.py

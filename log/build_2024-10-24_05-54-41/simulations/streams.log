@@ -1,0 +1,23 @@
+[0.771s] Invoking command in '/home/naveenkumar/mobile_robot/build/simulations': AMENT_PREFIX_PATH=/home/naveenkumar/mobile_robot/install/worlds:/home/naveenkumar/mobile_robot/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveenkumar/mobile_robot/install/robot_description:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/naveenkumar/mobile_robot/build/simulations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages:/home/naveenkumar/mobile_robot/build/worlds:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/naveenkumar/mobile_robot/build/simulations/build --no-deps symlink_data --force
+[1.082s] running develop
+[1.285s] running egg_info
+[1.286s] writing simulations.egg-info/PKG-INFO
+[1.288s] writing dependency_links to simulations.egg-info/dependency_links.txt
+[1.288s] writing entry points to simulations.egg-info/entry_points.txt
+[1.289s] writing requirements to simulations.egg-info/requires.txt
+[1.289s] writing top-level names to simulations.egg-info/top_level.txt
+[1.293s] reading manifest file 'simulations.egg-info/SOURCES.txt'
+[1.294s] writing manifest file 'simulations.egg-info/SOURCES.txt'
+[1.295s] running build_ext
+[1.295s] Creating /home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages/simulations.egg-link (link to .)
+[1.296s] 
+[1.297s] Installed /home/naveenkumar/mobile_robot/build/simulations
+[1.297s] running symlink_data
+[1.297s] symbolically linking /home/naveenkumar/mobile_robot/build/simulations/resource/simulations -> /home/naveenkumar/mobile_robot/install/simulations/share/ament_index/resource_index/packages
+[1.297s] symbolically linking /home/naveenkumar/mobile_robot/build/simulations/package.xml -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations
+[1.297s] symbolically linking /home/naveenkumar/mobile_robot/build/simulations/launch/display.launch.py -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations/launch
+[1.297s] symbolically linking /home/naveenkumar/mobile_robot/build/simulations/launch/warehouse.launch.py -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations/launch
+[1.297s] symbolically linking /home/naveenkumar/mobile_robot/build/simulations/launch/house.launch.py -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations/launch
+[1.297s] symbolically linking /home/naveenkumar/mobile_robot/build/simulations/launch/gazebo.launch.py -> /home/naveenkumar/mobile_robot/install/simulations/share/simulations/launch
+[1.298s] error: [Errno 2] No such file or directory: '/home/naveenkumar/mobile_robot/install/simulations/share/robot_description/urdf/robot_base.urdf'
+[1.329s] Invoked command in '/home/naveenkumar/mobile_robot/build/simulations' returned '1': AMENT_PREFIX_PATH=/home/naveenkumar/mobile_robot/install/worlds:/home/naveenkumar/mobile_robot/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveenkumar/mobile_robot/install/robot_description:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/naveenkumar/mobile_robot/build/simulations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages:/home/naveenkumar/mobile_robot/build/worlds:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/naveenkumar/mobile_robot/build/simulations/build --no-deps symlink_data --force

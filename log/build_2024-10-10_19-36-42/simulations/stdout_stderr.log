@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing simulations.egg-info/PKG-INFO
+writing dependency_links to simulations.egg-info/dependency_links.txt
+writing entry points to simulations.egg-info/entry_points.txt
+writing requirements to simulations.egg-info/requires.txt
+writing top-level names to simulations.egg-info/top_level.txt
+reading manifest file 'simulations.egg-info/SOURCES.txt'
+writing manifest file 'simulations.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/naveenkumar/mobile_robot/install/simulations/lib/python3.10/site-packages/simulations.egg-link (link to .)
+
+Installed /home/naveenkumar/mobile_robot/build/simulations
+running symlink_data
+creating /home/naveenkumar/mobile_robot/install/simulations/share/robot_description
+creating /home/naveenkumar/mobile_robot/install/simulations/share/robot_description/urdf
+error: can't copy '/home/naveenkumar/mobile_robot/build/simulations/robot_base.urdf': doesn't exist or not a regular file

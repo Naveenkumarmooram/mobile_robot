@@ -1,0 +1,20 @@
+[11.504s] Invoking command in '/home/naveenkumar/mobile_robot/src/robot_control': PYTHONPATH=/home/naveenkumar/mobile_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/naveenkumar/mobile_robot/build/robot_control/build install --record /home/naveenkumar/mobile_robot/build/robot_control/install.log --single-version-externally-managed install_data
+[14.809s] running egg_info
+[14.812s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[14.814s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[14.816s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[14.817s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[14.819s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[14.838s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[14.851s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[14.852s] running build
+[14.853s] running build_py
+[14.853s] running install
+[14.854s] running install_lib
+[14.868s] running install_data
+[14.869s] running install_egg_info
+[14.898s] removing '/home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[14.898s] Copying ../../build/robot_control/robot_control.egg-info to /home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info
+[14.905s] running install_scripts
+[15.113s] writing list of installed files to '/home/naveenkumar/mobile_robot/build/robot_control/install.log'
+[18.319s] Invoked command in '/home/naveenkumar/mobile_robot/src/robot_control' returned '0': PYTHONPATH=/home/naveenkumar/mobile_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/naveenkumar/mobile_robot/build/robot_control/build install --record /home/naveenkumar/mobile_robot/build/robot_control/install.log --single-version-externally-managed install_data

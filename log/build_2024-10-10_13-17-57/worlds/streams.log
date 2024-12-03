@@ -1,0 +1,16 @@
+[0.924s] Invoking command in '/home/naveenkumar/mobile_robot/build/worlds': PYTHONPATH=/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/naveenkumar/mobile_robot/build/worlds/build --no-deps symlink_data
+[1.318s] running develop
+[1.626s] running egg_info
+[1.626s] writing worlds.egg-info/PKG-INFO
+[1.626s] writing dependency_links to worlds.egg-info/dependency_links.txt
+[1.626s] writing entry points to worlds.egg-info/entry_points.txt
+[1.627s] writing requirements to worlds.egg-info/requires.txt
+[1.627s] writing top-level names to worlds.egg-info/top_level.txt
+[1.629s] reading manifest file 'worlds.egg-info/SOURCES.txt'
+[1.630s] writing manifest file 'worlds.egg-info/SOURCES.txt'
+[1.631s] running build_ext
+[1.631s] Creating /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds.egg-link (link to .)
+[1.632s] 
+[1.632s] Installed /home/naveenkumar/mobile_robot/build/worlds
+[1.633s] running symlink_data
+[1.670s] Invoked command in '/home/naveenkumar/mobile_robot/build/worlds' returned '0': PYTHONPATH=/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/naveenkumar/mobile_robot/build/worlds/build --no-deps symlink_data

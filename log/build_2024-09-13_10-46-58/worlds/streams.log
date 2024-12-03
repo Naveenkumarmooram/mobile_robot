@@ -1,0 +1,20 @@
+[12.567s] Invoking command in '/home/naveenkumar/mobile_robot/src/worlds': PYTHONPATH=/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/worlds build --build-base /home/naveenkumar/mobile_robot/build/worlds/build install --record /home/naveenkumar/mobile_robot/build/worlds/install.log --single-version-externally-managed install_data
+[18.053s] running egg_info
+[18.072s] writing ../../build/worlds/worlds.egg-info/PKG-INFO
+[18.081s] writing dependency_links to ../../build/worlds/worlds.egg-info/dependency_links.txt
+[18.082s] writing entry points to ../../build/worlds/worlds.egg-info/entry_points.txt
+[18.087s] writing requirements to ../../build/worlds/worlds.egg-info/requires.txt
+[18.092s] writing top-level names to ../../build/worlds/worlds.egg-info/top_level.txt
+[18.106s] reading manifest file '../../build/worlds/worlds.egg-info/SOURCES.txt'
+[18.107s] writing manifest file '../../build/worlds/worlds.egg-info/SOURCES.txt'
+[18.115s] running build
+[18.123s] running build_py
+[18.124s] running install
+[18.128s] running install_lib
+[18.128s] running install_data
+[18.129s] running install_egg_info
+[18.144s] removing '/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds-0.0.0-py3.10.egg-info' (and everything under it)
+[18.144s] Copying ../../build/worlds/worlds.egg-info to /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds-0.0.0-py3.10.egg-info
+[18.145s] running install_scripts
+[18.356s] writing list of installed files to '/home/naveenkumar/mobile_robot/build/worlds/install.log'
+[18.877s] Invoked command in '/home/naveenkumar/mobile_robot/src/worlds' returned '0': PYTHONPATH=/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/worlds build --build-base /home/naveenkumar/mobile_robot/build/worlds/build install --record /home/naveenkumar/mobile_robot/build/worlds/install.log --single-version-externally-managed install_data

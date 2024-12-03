@@ -1,0 +1,24 @@
+running develop
+Removing /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds.egg-link (link to .)
+running egg_info
+writing ../../build/worlds/worlds.egg-info/PKG-INFO
+writing dependency_links to ../../build/worlds/worlds.egg-info/dependency_links.txt
+writing entry points to ../../build/worlds/worlds.egg-info/entry_points.txt
+writing requirements to ../../build/worlds/worlds.egg-info/requires.txt
+writing top-level names to ../../build/worlds/worlds.egg-info/top_level.txt
+reading manifest file '../../build/worlds/worlds.egg-info/SOURCES.txt'
+writing manifest file '../../build/worlds/worlds.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds
+copying /home/naveenkumar/mobile_robot/build/worlds/build/lib/worlds/__init__.py -> /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds
+byte-compiling /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/worlds -> /home/naveenkumar/mobile_robot/install/worlds/share/ament_index/resource_index/packages
+copying package.xml -> /home/naveenkumar/mobile_robot/install/worlds/share/worlds
+running install_egg_info
+Copying ../../build/worlds/worlds.egg-info to /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/naveenkumar/mobile_robot/build/worlds/install.log'

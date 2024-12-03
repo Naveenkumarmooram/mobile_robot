@@ -1,0 +1,3 @@
+[console_scripts]
+circle_motion = robot_control.circle_motion:main
+

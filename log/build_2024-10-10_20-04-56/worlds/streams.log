@@ -1,0 +1,28 @@
+[0.836s] Invoking command in '/home/naveenkumar/mobile_robot/build/worlds': PYTHONPATH=/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/naveenkumar/mobile_robot/build/worlds/build
+[1.145s] running develop
+[1.349s] Removing /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds.egg-link (link to .)
+[1.381s] Invoked command in '/home/naveenkumar/mobile_robot/build/worlds' returned '0': PYTHONPATH=/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/naveenkumar/mobile_robot/build/worlds/build
+[1.383s] Invoking command in '/home/naveenkumar/mobile_robot/src/worlds': PYTHONPATH=/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/worlds build --build-base /home/naveenkumar/mobile_robot/build/worlds/build install --record /home/naveenkumar/mobile_robot/build/worlds/install.log --single-version-externally-managed install_data --force
+[1.669s] running egg_info
+[1.670s] writing ../../build/worlds/worlds.egg-info/PKG-INFO
+[1.670s] writing dependency_links to ../../build/worlds/worlds.egg-info/dependency_links.txt
+[1.670s] writing entry points to ../../build/worlds/worlds.egg-info/entry_points.txt
+[1.671s] writing requirements to ../../build/worlds/worlds.egg-info/requires.txt
+[1.671s] writing top-level names to ../../build/worlds/worlds.egg-info/top_level.txt
+[1.672s] reading manifest file '../../build/worlds/worlds.egg-info/SOURCES.txt'
+[1.673s] writing manifest file '../../build/worlds/worlds.egg-info/SOURCES.txt'
+[1.674s] running build
+[1.674s] running build_py
+[1.674s] running install
+[1.674s] running install_lib
+[1.676s] creating /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds
+[1.676s] copying /home/naveenkumar/mobile_robot/build/worlds/build/lib/worlds/__init__.py -> /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds
+[1.677s] byte-compiling /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds/__init__.py to __init__.cpython-310.pyc
+[1.677s] running install_data
+[1.677s] copying resource/worlds -> /home/naveenkumar/mobile_robot/install/worlds/share/ament_index/resource_index/packages
+[1.677s] copying package.xml -> /home/naveenkumar/mobile_robot/install/worlds/share/worlds
+[1.678s] running install_egg_info
+[1.680s] Copying ../../build/worlds/worlds.egg-info to /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds-0.0.0-py3.10.egg-info
+[1.681s] running install_scripts
+[1.700s] writing list of installed files to '/home/naveenkumar/mobile_robot/build/worlds/install.log'
+[1.727s] Invoked command in '/home/naveenkumar/mobile_robot/src/worlds' returned '0': PYTHONPATH=/home/naveenkumar/mobile_robot/build/worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/worlds build --build-base /home/naveenkumar/mobile_robot/build/worlds/build install --record /home/naveenkumar/mobile_robot/build/worlds/install.log --single-version-externally-managed install_data --force

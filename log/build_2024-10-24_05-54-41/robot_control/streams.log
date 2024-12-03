@@ -1,0 +1,19 @@
+[1.335s] Invoking command in '/home/naveenkumar/mobile_robot/build/robot_control': PYTHONPATH=/home/naveenkumar/mobile_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/naveenkumar/mobile_robot/build/robot_control/build --no-deps symlink_data --force
+[1.669s] running develop
+[1.877s] running egg_info
+[1.877s] writing robot_control.egg-info/PKG-INFO
+[1.878s] writing dependency_links to robot_control.egg-info/dependency_links.txt
+[1.878s] writing entry points to robot_control.egg-info/entry_points.txt
+[1.878s] writing requirements to robot_control.egg-info/requires.txt
+[1.878s] writing top-level names to robot_control.egg-info/top_level.txt
+[1.880s] reading manifest file 'robot_control.egg-info/SOURCES.txt'
+[1.881s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[1.882s] running build_ext
+[1.883s] Creating /home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages/robot-control.egg-link (link to .)
+[1.883s] Installing circle script to /home/naveenkumar/mobile_robot/install/robot_control/lib/robot_control
+[1.884s] 
+[1.884s] Installed /home/naveenkumar/mobile_robot/build/robot_control
+[1.884s] running symlink_data
+[1.884s] symbolically linking /home/naveenkumar/mobile_robot/build/robot_control/resource/robot_control -> /home/naveenkumar/mobile_robot/install/robot_control/share/ament_index/resource_index/packages
+[1.884s] symbolically linking /home/naveenkumar/mobile_robot/build/robot_control/package.xml -> /home/naveenkumar/mobile_robot/install/robot_control/share/robot_control
+[1.947s] Invoked command in '/home/naveenkumar/mobile_robot/build/robot_control' returned '0': PYTHONPATH=/home/naveenkumar/mobile_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveenkumar/mobile_robot/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/naveenkumar/mobile_robot/build/robot_control/build --no-deps symlink_data --force

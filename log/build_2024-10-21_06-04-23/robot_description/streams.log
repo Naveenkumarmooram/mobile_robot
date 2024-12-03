@@ -1,0 +1,26 @@
+[0.280s] Invoking command in '/home/naveenkumar/mobile_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/naveenkumar/mobile_robot/build/robot_description -- -j8 -l8
+[6.293s] Invoked command in '/home/naveenkumar/mobile_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/naveenkumar/mobile_robot/build/robot_description -- -j8 -l8
+[6.610s] Invoking command in '/home/naveenkumar/mobile_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/naveenkumar/mobile_robot/build/robot_description
+[6.684s] -- Install configuration: ""
+[6.690s] -- Execute custom install script
+[6.700s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/urdf/camera.xacro
+[6.705s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/urdf/gazebo_control.xacro
+[6.710s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/urdf/inertial_macros.xacro
+[6.710s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/urdf/lidar.xacro
+[6.711s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/urdf/robot_base.urdf
+[6.711s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[6.711s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[6.712s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[6.716s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[6.728s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/environment/path.sh
+[6.728s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/environment/path.dsv
+[6.729s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/local_setup.bash
+[6.732s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/local_setup.sh
+[6.737s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/local_setup.zsh
+[6.741s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/local_setup.dsv
+[6.741s] -- Symlinking: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.dsv
+[6.843s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[6.844s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[6.853s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[6.860s] -- Up-to-date symlink: /home/naveenkumar/mobile_robot/install/robot_description/share/robot_description/package.xml
+[6.891s] Invoked command in '/home/naveenkumar/mobile_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naveenkumar/AMR/install/telenex_robot_description:/home/naveenkumar/AMR/install/naveen_pkg:/home/naveenkumar/AMR/install/my_package:/home/naveenkumar/thesis/install/turtlebot3_teleop:/home/naveenkumar/thesis/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/naveenkumar/mobile_robot/build/robot_description

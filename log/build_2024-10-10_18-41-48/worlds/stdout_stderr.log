@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing worlds.egg-info/PKG-INFO
+writing dependency_links to worlds.egg-info/dependency_links.txt
+writing entry points to worlds.egg-info/entry_points.txt
+writing requirements to worlds.egg-info/requires.txt
+writing top-level names to worlds.egg-info/top_level.txt
+reading manifest file 'worlds.egg-info/SOURCES.txt'
+writing manifest file 'worlds.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/naveenkumar/mobile_robot/install/worlds/lib/python3.10/site-packages/worlds.egg-link (link to .)
+
+Installed /home/naveenkumar/mobile_robot/build/worlds
+running symlink_data
+symbolically linking /home/naveenkumar/mobile_robot/build/worlds/resource/worlds -> /home/naveenkumar/mobile_robot/install/worlds/share/ament_index/resource_index/packages
+symbolically linking /home/naveenkumar/mobile_robot/build/worlds/package.xml -> /home/naveenkumar/mobile_robot/install/worlds/share/worlds
